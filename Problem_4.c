@@ -9,7 +9,8 @@ int main()
 
   	scanf("%d", &n);
 
-  	//Write your code here
+  	//Write your code her
+    
 
   
 
