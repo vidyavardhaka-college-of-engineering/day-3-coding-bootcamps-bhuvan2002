@@ -6,17 +6,21 @@
 //10
 
 #include<stdio.h>
-
 int main()
 {
-    int N;
+    int n, sum , i;
     printf("Enter the value for N\n");
-    scanf("%d", &N);
+    scanf("%d", &n);
+
 
     //Write your code here
+    sum=0;
+    for(i=1; i<=n; i++)
+    {
+      sum=sum+i;
+    }   
        
-       
-       
+     printf("The sum is %d" , sum);  
        
        
     return 0;
